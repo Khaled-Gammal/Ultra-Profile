@@ -4,7 +4,7 @@ import axios from 'axios'
 function Profile() {
   const[skills,setSkills]=useState([]);
   useEffect(()=>{
-    axios.get('js/data.json').then((res)=>{setSkills(res.data.profile)})
+    axios.get('http://localhost:3000/js/data.json').then((res)=>{setSkills(res.data.profile)})
   },[])
   const mySkills=skills.map((skill)=>{
     return(
