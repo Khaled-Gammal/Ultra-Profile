@@ -6,7 +6,7 @@ export const Drop=styled.div`
     overflow: hidden;
     padding: 100px 0;
     text-align: center;
-    background-image:url("../../images/contact.jpg");
+    background-image:url("images/contact.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment:fixed;
