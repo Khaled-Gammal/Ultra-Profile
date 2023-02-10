@@ -6,7 +6,7 @@ function SocialMedia() {
 
   const[contacts,setContact]=useState([]);
   useEffect(()=>{
-    axios.get('js/data.json')
+    axios.get('http://localhost:3000/js/data.json')
     .then((res)=>{setContact(res.data.social)})
   },[])
   const SociaContact=contacts.map((contact)=>{

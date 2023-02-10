@@ -8,7 +8,7 @@ function Portfolio() {
   const [Photos,setPhotos]=useState([]);
 
   useEffect(() => {
-    axios.get(`js/data.json`)
+    axios.get(`http://localhost:3000/js/data.json`)
     .then((res)=> {setPhotos(res.data.portfolio)})
   },[])
 

@@ -8,7 +8,7 @@ class Work extends Component  {
     works:[]
   }
   componentDidMount(){
-  axios.get(`js/data.json`)
+  axios.get(`http://localhost:3000/js/data.json`)
   .then((res)=>this.setState({works:res.data.works}))
   }
       render(){
