@@ -27,31 +27,31 @@
         },
         {
             "id":2,
-            "image": "http://localhost:3000/images/portfolio-img2.jpg"
+            "image": "images/portfolio-img2.jpg"
         },
         {
             "id":3,
-            "image": "http://localhost:3000/images/portfolio-img3.jpg"
+            "image": "images/portfolio-img3.jpg"
         },
         {
             "id":4,
-            "image": "http://localhost:3000/images/portfolio-img4.jpg"
+            "image": "images/portfolio-img4.jpg"
         },
         {
             "id":5,
-            "image": "http://localhost:3000/images/portfolio-img5.jpg"
+            "image": "images/portfolio-img5.jpg"
         },
         {
             "id":6,
-            "image": "http://localhost:3000/images/portfolio-img6.jpg"
+            "image": "images/portfolio-img6.jpg"
         },
         {
             "id":7,
-            "image": "http://localhost:3000/images/portfolio-img4.jpg"
+            "image": "images/portfolio-img4.jpg"
         },
         {
             "id":8,
-            "image": "http://localhost:3000/images/portfolio-img8.jpg"
+            "image": "images/portfolio-img8.jpg"
         }
     ] ,
     "social" : [
